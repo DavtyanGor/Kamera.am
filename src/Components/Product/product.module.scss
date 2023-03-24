@@ -1,0 +1,39 @@
+.product {
+	@apply p-3 flex-shrink  rounded-md flex-grow  max-w-[270px] flex gap-4 flex-col justify-between items-center bg-white shadow-xl shadow-gray-600/30;
+	flex:1 1 calc(20% - 3rem);
+}
+.imgContainer {
+	@apply relative w-[197px] h-[202px]  overflow-hidden;
+	&:hover {
+		.img {
+			@apply transform scale-110;
+		}
+	}
+}
+.img {
+	@apply top-0 left-0 w-[197px] h-[202px] transition-transform duration-200   object-contain;
+}
+.fields {
+	@apply flex flex-col items-center justify-center gap-1;
+}
+.type {
+	@apply text-sm text-center;
+}
+.name {
+	@apply text-blue-700 font-semibold tracking-wide text-xl text-center;
+}
+.price {
+	@apply mt-3 text-gray-900 text-lg;
+}
+.pricingFields {
+	@apply flex justify-between w-full bg-slate-300/60 rounded-xl;
+}
+.likeButton {
+	@apply w-full flex justify-center px-2 py-1 items-center gap-2 font-semibold text-lg transition-colors duration-100;
+}
+.buyButton {
+	@apply w-full flex justify-center border-l border-black px-2 py-1  items-center gap-2 font-semibold text-xl;
+}
+.like {
+	@apply text-blue-600;
+}

@@ -1,0 +1,13 @@
+.slider2__splide {
+    background: #FFF;
+}
+
+.slider2__container .splide__pagination__page {
+    background: #FFF !important;
+}
+
+@media screen and (max-width: 960px) {
+    .slider2__container {
+        display: none;
+    }
+}

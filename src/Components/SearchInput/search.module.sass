@@ -1,0 +1,18 @@
+.inputContainer
+	@apply  flex flex-col gap-3  w-full 
+	.label
+		@apply flex gap-2 bg-white  px-2 py-[2px] 
+		.input
+			@apply px-3 py-1 outline-none h-[34px]
+			
+	.searchBtn
+		@apply text-gray-400 
+	.searchedListDiv
+		@apply absolute z-[2] shadow shadow-black  right-auto
+		.list
+			@apply bg-white flex flex-col rounded-sm z-50
+		.seeMore
+			@apply mt-1 text-blue-800 font-bold tracking-wide uppercase flex gap-2 p-2 items-center transition-colors duration-200 justify-between bg-gray-200 hover:bg-gray-500 hover:text-white	
+	input::-webkit-search-cancel-button
+		@apply opacity-0 invisible
+

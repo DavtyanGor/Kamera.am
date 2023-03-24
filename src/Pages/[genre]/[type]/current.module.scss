@@ -1,0 +1,45 @@
+.image {
+	@apply w-[500px] max-h-[500px] h-full object-cover object-bottom;
+	@media screen and (max-width: 991px) {
+		@apply w-[300px] max-h-[300px];
+	}
+	@media screen and (max-width: 768px) {
+		@apply w-[200px] max-h-[200px];
+	}
+}
+.fields {
+	@apply flex flex-col justify-center gap-2 py-2 md:gap-5;
+}
+.currentContainer {
+	@apply flex gap-2;
+}
+.headings {
+	@apply flex md:gap-2 gap-0 flex-col items-start;
+}
+.mainContainer {
+	@apply flex gap-10 flex-row bg-white  pb-7 pt-4 mt-14 relative max-w-[1440px] rounded  mx-auto px-2;
+	@media screen and (max-width: 991px) {
+		@apply flex-col items-center  mt-7;
+	}
+}
+.LikeButton {
+	@apply absolute right-6 top-6 transition-colors ease-linear;
+	&.active {
+		@apply text-blue-600;
+	}
+}
+.buyDescription {
+	@apply px-4  font-medium tracking-wide text-xl;
+}
+.socials {
+	@apply flex gap-2 justify-end pr-3 items-center md:mt-0 mt-10;
+	li {
+		@apply cursor-pointer mr-1 last-of-type:mr-0 transition-opacity ease-linear hover:opacity-80;
+	}
+	@media screen and (max-width: 991px) {
+		@apply justify-center mt-3;
+	}
+}
+.alertTitle {
+	@apply text-gray-900;
+}

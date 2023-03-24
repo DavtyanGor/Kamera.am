@@ -1,0 +1,24 @@
+.pagination_bar{
+	@apply w-full flex justify-center items-center mt-10 mb-3;
+}
+.pagination_list{
+	@apply flex justify-center items-center gap-5;
+}
+.pagination_item{
+	@apply cursor-pointer
+	bg-white px-3
+	rounded-lg border 
+	border-black py-1
+	transition-all
+	duration-300
+	ease-linear
+	text-xl flex justify-center
+	items-center font-semibold text-blue-900 shadow-md shadow-black/70;
+	&:hover{
+		@apply bg-gray-400/10 duration-75;}
+	&.currentPage{
+		@apply bg-blue-900 text-white drop-shadow-2xl transform rotate-[5deg] border-white shadow-2xl;
+	}
+}
+.arrows{
+	@apply cursor-pointer p-1 text-blue-700 disabled:text-blue-400}

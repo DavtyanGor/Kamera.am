@@ -1,0 +1,21 @@
+.serchDiv
+	position: absolute
+	animation: searchList 0.1s linear 0s forwards alternate
+	@apply absolute z-[2] shadow shadow-black  right-auto
+	@media (max-width: 1450px)
+		right: 40px !important
+	@media (max-width: 960px)
+		right: 50% !important
+		transform: translateX(50%)
+	@media (max-width: 770px)
+		right: 20px !important
+		transform: translateX(0%)
+
+@keyframes searchList
+	0%
+		@apply -top-[5px] opacity-0
+	100%
+		@apply top-[3.3rem] w-full max-w-[350px] opacity-100
+
+
+		

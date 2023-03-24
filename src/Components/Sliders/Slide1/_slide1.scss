@@ -1,0 +1,19 @@
+.slider__container{
+    width: 100%;
+    max-height: 550px;
+}
+.slider__img img{
+    max-width: 100%;
+    max-height: 100%;
+    object-position: center;
+}
+
+.splide__arrow svg{
+    fill: #013CF0;
+}
+.slider__container .splide__pagination__page{
+    background-color: #AAA !important;
+}
+.slider__container .is-active{
+    background-color: #013CF0 !important;
+}

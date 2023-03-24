@@ -1,0 +1,27 @@
+.alertContainer {
+	@apply fixed  px-5 py-3 flex  justify-center items-center transition-all duration-200 ease-linear h-[70px] bg-gray-200 shadow-xl shadow-gray-900/50 z-10;
+}
+.RightTop {
+	@apply right-5 top-32 transform translate-x-[100%]  opacity-0;
+}
+.LeftTop {
+	@apply left-5 top-32 transform -translate-x-[100%]  opacity-0;
+}
+.LeftBottom {
+	@apply left-5 bottom-32 transform -translate-x-[100%]  opacity-0;
+}
+.RightBottom {
+	@apply right-5 bottom-32 transform translate-x-[100%]  opacity-0;
+}
+.LeftBottom.visible {
+	@apply translate-x-0 opacity-100;
+}
+.RightBottom.visible {
+	@apply translate-x-0 opacity-100;
+}
+.LeftTop.visible {
+	@apply translate-x-0 opacity-100;
+}
+.RightTop.visible {
+	@apply translate-x-0 opacity-100;
+}

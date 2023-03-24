@@ -1,0 +1,36 @@
+.contacts {
+	@apply max-w-[1440px] mx-auto w-full bg-white shadow-md shadow-gray-800/40 py-8 px-6 mt-7 rounded;
+	&Heading {
+		@apply flex flex-col gap-1 items-start mb-5;
+	}
+	&Description {
+		@apply text-lg;
+	}
+	&US {
+		@apply flex flex-col items-start gap-3;
+	}
+	&Phone {
+		@apply flex flex-col gap-3 items-start mt-2;
+	}
+	&Item {
+		@apply flex items-center gap-3;
+	}
+	&Socials {
+		@apply flex gap-1.5 items-center;
+	}
+	&Number {
+		@apply flex gap-1.5 items-center;
+	}
+	&OurAddress {
+		@apply mt-5 flex flex-col gap-3;
+	}
+	&AddressName {
+		@apply not-italic flex gap-1 items-center mb-3;
+	}
+	&Map {
+		@apply mt-3 rounded border border-blue-800/40;
+		iframe {
+			@apply rounded shadow-xl shadow-gray-700/25
+		}
+	}
+}

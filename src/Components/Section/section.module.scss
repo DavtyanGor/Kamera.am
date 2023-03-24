@@ -1,0 +1,12 @@
+.section {
+	@apply flex-col flex-1 flex-wrap gap-10 w-full px-4 py-3;
+	& + & {
+		@apply my-5;
+	}
+}
+.mainSection {
+	@apply max-w-[1440px] w-full mx-auto px-1 mt-10;
+}
+.searchListDivClassName {
+	@apply top-[40px] bg-white w-[98%]  left-0;
+}

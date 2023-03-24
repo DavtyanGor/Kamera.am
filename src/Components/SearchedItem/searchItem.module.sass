@@ -1,0 +1,14 @@
+.item
+	@apply flex  transition-colors bg-blue-50 border-b border-gray-400  px-2 py-1 w-full hover:bg-blue-500/[36%]
+	.link
+		@apply flex gap-2 w-full 
+	.itemImage
+		@apply relative h-[65px] w-[75px]
+		img
+				@apply absolute top-0 left-0 w-full h-full object-contain 
+	.info
+		@apply flex flex-col justify-center items-center 
+		.name
+			@apply font-semibold mx-1 
+		.price
+			@apply font-bold text-blue-700

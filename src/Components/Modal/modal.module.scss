@@ -1,0 +1,44 @@
+.modal {
+	@apply fixed top-0  left-0 bg-gray-600/40 backdrop-blur-md flex justify-center items-center p-3  cursor-pointer w-full h-full;
+	z-index: 9999;
+}
+.content {
+	scrollbar-color: #1A56DB  #233876 ;
+	scrollbar-width:0.375rem ;
+	@apply bg-gray-200 w-full cursor-auto max-w-[750px]  max-h-[400px] overflow-y-auto min-h-[220px] relative pb-8 pt-3 px-2 rounded;
+}
+.heading{
+	@apply flex gap-1 justify-center items-center}
+.Clear{
+	@apply text-rose-600 uppercase px-1 text-xl m-2 flex items-center gap-2 ;
+}
+.init{
+	transform: rotateY(180deg);
+	transition: all 0.6s linear 0s;
+}
+.reset {
+	transform: rotateY(180deg) rotateZ(-360deg);
+}	
+	.closeButton {
+	@apply absolute top-3 shadow-2xl shadow-gray-900 right-3;
+}
+.product {
+	@apply flex items-center shadow-2xl gap-4 rounded-sm border bg-white  border-blue-900/20 px-4 py-5 shadow-blue-900/30 justify-between;
+}
+.productImage {
+	@apply object-cover;
+}
+.productLeft {
+	@apply flex items-center gap-1;
+}
+.products {
+	@apply flex gap-10 mt-12 px-4 flex-col;
+}
+.content::-webkit-scrollbar {
+	@apply  bg-blue-500/70 w-1.5
+
+}.content::-webkit-scrollbar-thumb {
+	@apply  bg-blue-900/70 rounded
+
+}
+ 

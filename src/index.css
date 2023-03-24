@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#__kameraam {
+	@apply min-h-screen  flex  flex-col justify-between;
+}
+*,
+*::before,
+*::after {
+	@apply m-0 p-0 box-border antialiased;
+}
+html::-webkit-scrollbar {
+	@apply w-2 bg-blue-500/70;
+}
+html::-webkit-scrollbar-thumb {
+	@apply bg-blue-900/70 rounded;
+}
+html:lang(hy) {
+	font-family: "Noto Sans Armenian", sans-serif;
+}
+html:lang(ru) {
+	font-family: Arial, Helvetica, sans-serif;
+}
+html:lang(en) {
+	font-family: Arial, Helvetica, sans-serif;
+}
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+* {
+	scrollbar-color: #233876 #1a56db;
+	scrollbar-width: 0.375rem;
+}
+body {
+	@apply bg-gray-200 overflow-x-hidden;
+}
+.loader-sPinner {
+	@apply fixed top-0 left-0 bg-white w-full h-full flex justify-center items-center;
+	z-index: 999999999999999999999999999999999999999999;
+}
+
+#__kameraam {
+	@apply min-h-screen  flex  flex-col justify-between;
+}
+*,
+*::before,
+*::after {
+	@apply m-0 p-0 box-border antialiased;
+}
+html::-webkit-scrollbar {
+	@apply w-2 bg-blue-500/70;
+}
+html::-webkit-scrollbar-thumb {
+	@apply bg-blue-900/70 rounded;
+}
+html:lang(hy) {
+	font-family: "Noto Sans Armenian", sans-serif;
+}
+html:lang(ru) {
+	font-family: Arial, Helvetica, sans-serif;
+}
+html:lang(en) {
+	font-family: Arial, Helvetica, sans-serif;
+}
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+* {
+	scrollbar-color: #233876 #1a56db;
+	scrollbar-width: 0.375rem;
+}
+body {
+	@apply bg-gray-200 overflow-x-hidden;
+}
+.loader-sPinner {
+	@apply fixed top-0 left-0 bg-white w-full h-full flex justify-center items-center;
+	z-index: 999999999999999999999999999999999999999999;
+}
